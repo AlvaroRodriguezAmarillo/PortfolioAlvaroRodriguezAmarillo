@@ -1,0 +1,5 @@
+/* style.css */
+.nav-item .nav-link:hover {
+    color: white !important;
+    background-color: black;
+}
