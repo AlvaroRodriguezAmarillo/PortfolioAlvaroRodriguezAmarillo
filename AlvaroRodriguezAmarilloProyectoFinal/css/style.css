@@ -1,5 +1,32 @@
-/* style.css */
 .nav-item .nav-link:hover {
     color: white !important;
     background-color: black;
+}
+
+
+.zoom {
+    transition: transform 0.2s ease-in-out;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white; 
+}
+
+
+.bg-naranja {
+    background-color: orange;
 }
