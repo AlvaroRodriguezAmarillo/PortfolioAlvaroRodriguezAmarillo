@@ -30,3 +30,95 @@
 .bg-naranja {
     background-color: orange;
 }
+
+
+
+.proyecto1 {
+    background-image: url('/imgs/EnBuscaDelGrammy.PNG');
+    
+}
+
+
+.proyecto2 {
+    background-image: url('/imgs/EnBuscaDelGrammyFoto.PNG');
+   
+}
+
+.proyecto3 {
+    background-image: url('/imgs/LaRedondaFoto.PNG');
+   
+}
+.proyecto4 {
+    background-image: url('/imgs/LaLiga.PNG');
+    
+}
+
+
+.proyecto1, .proyecto2, .proyecto3, .proyecto4 {
+    height: 294px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.proyecto1,
+.proyecto2,
+.proyecto3,
+.proyecto4 {
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+}
+
+.proyecto1:hover,
+.proyecto2:hover,
+.proyecto3:hover,
+.proyecto4:hover {
+    transform: scale(1.1);
+}
+
+.proyecto1:not(:hover),
+.proyecto2:not(:hover),
+.proyecto3:not(:hover),
+.proyecto4:not(:hover) {
+    transform: scale(1); 
+}
+
+
+
+.subrayado {
+    background-color: rgba(208, 197, 197, 0.85);
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.subrayado2 {
+    background-color: rgba(32, 32, 32, 0.85);
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+
+.btn1 {
+    background-color:  rgba(208, 197, 197, 0.85);
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white; 
+}
+
+
+.btn2 {
+    background-color:  rgba(32, 32, 32, 0.85);
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white; 
+}
