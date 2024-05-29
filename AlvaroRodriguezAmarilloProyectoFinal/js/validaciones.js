@@ -16,3 +16,16 @@
                 }, false)
             })
 })()
+
+
+function scrollToSobreMi() {
+    document.getElementById('sobreMi').scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToAficiones() {
+    document.getElementById('Aficiones').scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToViajes() {
+    document.getElementById('Viajes').scrollIntoView({ behavior: 'smooth' });
+}
